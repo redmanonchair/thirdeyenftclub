@@ -1,0 +1,211 @@
+/*Default*/
+body{
+/*    background-image: url(../../media/bg/bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,.5);
+    background-position: center;
+    background-color: #181717 !important;
+}
+.theme-color-4,.yellow-color {
+    color: #fde451 !important;
+}
+.header__logo img {
+    height: 40px;
+}
+.default-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.7rem;
+    line-height: 40px;
+    border-radius: 99px;
+    font-size: 1rem;
+    transform-origin: right;
+    transition: all .3s ease;
+    
+}
+.default-btn:hover {
+    color: #0d0f19;
+text-shadow: 0 0 8px rgba(13,15,25,.5);
+background-size: 200% 100%;
+}
+.main-h1 {
+    max-width: 726px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: calc(.9rem + 2vw);
+    font-size: calc(1rem + 2vw);
+    font-family: "Orbitron", sans-serif !important; 
+    color:#fde451;
+    
+}
+.main-subtitle {
+    color: #fff;
+
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    max-width: 500px;
+    font-family: "Montserrat", sans-serif !important; 
+}
+
+
+/*FORM*/
+.form__submit {
+    width: 100%;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFF;
+    border: 1px solid #fde451;
+    background: transparent;
+    transition: all .3s ease;
+    font-family: "Galaxy", sans-serif !important; 
+}
+.form__submit:hover {
+background-color: #fde451;
+color: #fff;
+
+
+
+
+
+}
+#payment-modal > *,.progress__container > *{
+    font-family: "Montserrat", sans-serif !important; 
+}
+/*CARDS*/
+.nft-item.home-4 .nft-inner {
+    background-color: #000;
+    border: 2px solid transparent;
+    border-image: linear-gradient(180deg,#fde451 -50%,#fde451  50%,rgba(235,188,74,0) 150%);
+    border-image-slice: 1;
+}
+/*finform*/
+.modal__window{
+    border: 2px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-image: linear-gradient(180deg,#f1dcaa -50%,#ebbc4a 50%,rgba(235,188,74,0) 150%);
+  border-image-slice: 100%;
+  border-image-slice: 1;
+}
+.modal__header1,.modal__header2{color:#4754ff;}
+/*FOOTER*/
+.footer-section.style-4 .footer-top form button{
+    color:#fff ;
+}
+.footer-top form button,.footer-section.style-4 .footer-top .social-link a{
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-weight: bold;
+    font-family: "Galaxy", sans-serif !important; 
+    color:#fff ;
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.footer-section.style-4 .footer-top form button:hover{
+    color: #fde451 !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    border-radius: 0px!important;
+    
+}
+.footer-section.style-4 .footer-top .social-link a:hover {
+    color: #fde451 !important;
+}
+@media (max-width: 768px) {
+    .header__logo {
+        padding-right: 0rem;
+        margin-right: 0rem;
+        width: 180px;
+        border-right: none;
+        justify-content: center;
+    }
+
+    .header__actions {
+        display: none;
+    }
+        .custom-social-proof {
+        background-color: rgb(15, 17, 27);
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+            
+        max-width: 90%;
+    }
+    #product {
+        font-size: calc(0.6rem + 1vw);
+        display: block;
+        white-space: normal;
+        word-break: break-all;
+    }
+    #claim-text-wrapper, #mints{width: 100% !important;}
+}
+
+
+/* Optional */
+
+/* FORM */
+.form__input {
+    border: 3px solid var(--main_color1);
+    border-radius: 0.5rem;
+}
+.form__input--invalid {
+    border-color: #f00;
+}
+.form__inputfocus {
+    /*    background-color: #4754ff;*/
+}
+
+
+
+
+/* secondform */
+#payment-info {
+    border: 2px solid #fde451 ;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+#ape-number {
+    border: 2px solid #fde451 ;background-color: rgba(0, 0, 0, 0.5);
+}
+#ape-total {
+    border-top: 2px solid #fde451 ;
+    border-bottom: 2px solid #fde451 ;background-color: rgba(0, 0, 0, 0.5);
+}
+.bar-done {
+
+    font-weight: bolder;
+    color: #fff;
+    height: 100%;
+    background: linear-gradient(90deg, #fde451, #fde451);
+    border-radius: 20px;
+    display: grid;
+    text-align: right;
+
+    width: 0;
+    box-shadow: 0 0 3px -5px #fde451, 0px 3px 150px #fde451;
+    transition: width .5s ease;
+}
+.progress__container{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image: linear-gradient(180deg,#fde451 -50%,#fde451  50%,rgba(235,188,74,0) 150%);
+    border-image-slice: 100%;
+    border-image-slice: 1;
+    box-shadow: 0 0 10px rgba(3,0,16,.2);
+    margin: 3rem 0;
+}
